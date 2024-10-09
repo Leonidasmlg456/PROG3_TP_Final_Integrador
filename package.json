@@ -1,0 +1,17 @@
+{
+  "name": "api-reclamos",
+  "version": "1.0.0",
+  "description": "API Rest para la gestión de reclamos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^10.0.0"
+  }
+}
